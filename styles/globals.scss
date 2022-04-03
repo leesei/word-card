@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import "bulma/sass/utilities/_all.sass";
+
+// Update some of Bulma's component variables
+// $body-background-color: #282c34;
+// $breadcrumb-item-active-color: findColorInvert($body-background-color);
+
+// html,
+// body {
+//   text-align: center;
+//   // @use has-text-center
+// }
+
+@import "bulma/bulma.sass";
+
+@import "./presentation.scss";

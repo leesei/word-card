@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "@reach/dialog": "^0.16.2",
+    "bulma": "^0.9.3",
+    "jotai": "^1.6.1",
     "next": "12.1.4",
+    "node-sass": "^7.0.1",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "eslint": "8.12.0",
