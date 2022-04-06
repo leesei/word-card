@@ -6,3 +6,5 @@ export const DEFAULT_SETTINGS = {
   shuffle: true,
 };
 export const settingsAtom = atom(DEFAULT_SETTINGS);
+
+export const slideAtom = atom(0);

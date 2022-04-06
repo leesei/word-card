@@ -8,13 +8,15 @@ import "@reach/dialog/styles.css";
 
 import Slides from "../components/slides";
 import Settings from "../components/settings";
-import { settingsAtom } from "../atoms";
+import { settingsAtom, slideAtom } from "../atoms";
+import { useUpdateAtom } from "jotai/utils";
 import { shuffle } from "../helpers";
 
 import wordset from "../wordset";
 
 export default function Home() {
   const [settings, updateSettings] = useAtom(settingsAtom);
+  const setSlide = useUpdateAtom(slideAtom);
   const [words, setWords] = useState([]);
 
   useEffect(() => {
@@ -25,10 +27,11 @@ export default function Home() {
     console.log(settings);
     console.log("update words, shuffle:", settings.shuffle);
     setWords(_words);
+    setSlide(0);
   }, [settings]);
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const openModal = useCallback((item) => {
+  const openModal = useCallback(() => {
     setModalIsOpen(true);
   }, []);
   const closeModal = useCallback(() => {
