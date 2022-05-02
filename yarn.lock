@@ -1667,10 +1667,10 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-jotai@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.1.tgz#a6379d7dce159474f24963921d55ae8f6e9e8dd6"
-  integrity sha512-iNKHmpKGN31KXDqxGLsplb4HLTroYtiM7oBEQ9leyoXSEGQGUZKK5IOV4kN6fUmkBSJbwb5WnmInYOYzpjIDOw==
+jotai@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.5.tgz#989efe63dc65beea23b3a5eab56f689d78e38070"
+  integrity sha512-B+DGV5ALIkIeyA1Bi9yBpdGmcWkmDS/p8C1XFYx9jFBs+lkeOdu0WAozAPCG4Qq1EcQ68vF+07HmPYFN5kf9OQ==
 
 js-base64@^2.4.3:
   version "2.6.4"
